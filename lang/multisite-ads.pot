@@ -1,0 +1,69 @@
+# Copyright (C) 2012 Multisite wp_head Code
+# This file is distributed under the same license as the Multisite Ads package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Multisite Ads 1.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/multisite-ads\n"
+"POT-Creation-Date: 2012-03-03 08:59:44+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2012-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#. #-#-#-#-#  plugin.pot (Multisite Ads 1.1)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: multisite-ads.php:70 multisite-ads.php:100
+msgid "Multisite Ads"
+msgstr ""
+
+#: multisite-ads.php:86
+msgid "Settings saved."
+msgstr ""
+
+#: multisite-ads.php:104
+msgid "Please consider a donation"
+msgstr ""
+
+#: multisite-ads.php:106
+msgid ""
+"I spend quite a lot of my precious time working on opensource WordPress "
+"plugins. If you find this one useful, please consider helping me develop it "
+"further. Even the smallest amount of money you are willing to spend will be "
+"welcome."
+msgstr ""
+
+#: multisite-ads.php:116
+msgid "Settings"
+msgstr ""
+
+#: multisite-ads.php:121
+msgid "Code (<code>HTML</code>, <code>CSS</code>, <code>JS</code> etc):"
+msgstr ""
+
+#: multisite-ads.php:128
+msgid "Hide donation button"
+msgstr ""
+
+#: multisite-ads.php:135
+msgid "If you don't want to be bothered again..."
+msgstr ""
+
+#: multisite-ads.php:139
+msgid "Save"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Includes custom HTML/CSS/JS code in the "
+"network."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "EWSEL"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://ewsel.com"
+msgstr ""
