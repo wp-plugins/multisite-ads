@@ -67,7 +67,7 @@ function ew_options_page() {
     }   
     switch( $action ) {
     case 'update-options':
-    	update_site_option( 'mlj_code', $_POST['ew_code'] );
+    	update_site_option( 'ewsel_code', $_POST['ew_code'] );
     	ew_update_settings( $_POST['settings'] );
     	ew_nag( __( 'Settings saved.', ew_TEXTDOMAIN ) );
     	ew_options_page_default();
@@ -103,9 +103,9 @@ function ew_options_page_default() {
             <input type="hidden" name="action" value="update-options" />
             <table class="form-table">
                 <tr valign="top">
-                	<th><label for="ew_code"><?php _e( 'Code (<code>HTML</code>, <code>CSS</code>, <code>JS</code> etc):', ew_TEXTDOMAIN ); ?></label></th>
+                	<th><label for="ew_code"><?php _e( 'Ads Code (<code>HTML</code>, <code>CSS</code>, <code>JS</code> etc):', ew_TEXTDOMAIN ); ?></label></th>
                 	<td>
-                		<textarea name="ew_code" cols="40" rows="5" style="font-family: monospace;" placeholder="<!-- start of <head> tag -->"><?php echo stripslashes( get_site_option( 'mlj_code' ) ); ?></textarea>
+                		<textarea name="ew_code" cols="40" rows="5" style="font-family: monospace;" placeholder="<!-- This Code Show in Head and Footer -->"><?php echo stripslashes( get_site_option( 'ewsel_code' ) ); ?></textarea>
                 	</td>
                 </tr>
                 <tr valign="top">
@@ -151,12 +151,12 @@ function ew_embed_code_head() {
 		return;
 	}
 	
-	echo stripslashes( get_site_option( 'mlj_code' ) );
+	echo stripslashes( get_site_option( 'ewsel_code' ) );
 }
 function ew_embed_code_footer() {
 	if( is_admin() ) {
 		return;
 	}
-	echo stripslashes( get_site_option( 'mlj_code' ) );
+	echo stripslashes( get_site_option( 'ewsel_code' ) );
 }
 ?>

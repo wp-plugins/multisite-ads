@@ -39,7 +39,7 @@ msgid "Settings"
 msgstr ""
 
 #: multisite-ads.php:121
-msgid "Code (<code>HTML</code>, <code>CSS</code>, <code>JS</code> etc):"
+msgid "Ads Code (<code>HTML</code>, <code>CSS</code>, <code>JS</code> etc):"
 msgstr ""
 
 #: multisite-ads.php:128
