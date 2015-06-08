@@ -2,7 +2,7 @@
 /*
 Plugin Name: Multisite Ads
 Description: Includes custom HTML/CSS/JS code in the network.
-Version: 1.0
+Version: 1.1.0
 Author: EWSEL
 Author URI: http://ewsel.com
 License: GPL2
